@@ -20,7 +20,7 @@ module.exports = {
     hot: true,
   },
   plugins: [
-    isDevelopment && new ReactRefreshWebpackPlugin(),
+    isDevelopment && new ReactRefreshWebpackPlugin({ overlay: false }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html')
     })
