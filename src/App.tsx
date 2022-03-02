@@ -1,7 +1,4 @@
 import { useEffect, useState } from 'react';
-
-import { Button } from './components/Button';
-
 import { SideBar } from './components/SideBar';
 import { Content } from './components/Content';
 
